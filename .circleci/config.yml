@@ -12,7 +12,7 @@ jobs:
       - checkout
       - run:
           name: test
-          command: phpunit Arithmetic_test
+          command: phpunit
   deploy:
     machine: True
     steps:
