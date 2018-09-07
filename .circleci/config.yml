@@ -10,7 +10,7 @@ jobs:
       - image: php:5.6.23
     steps:
       - checkout
-      - run: vendor/bin/phpunit Arithmetic_test
+      - run: echo hello world
   deploy:
     machine: True
     steps:
@@ -22,7 +22,7 @@ workflows:
       - build
       - test:
           requires:
-            - build
+            - phpunit arithmetic_test
       - deploy:
           requires:
             - test
