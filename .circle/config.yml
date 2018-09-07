@@ -29,4 +29,7 @@ workflows:
           filters:
             branches:
               only: master
-              
+
+test:
+  override:
+    - echo hello world
