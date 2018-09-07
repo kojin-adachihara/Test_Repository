@@ -22,7 +22,7 @@ workflows:
       - build
       - test:
           requires:
-            - phpunit arithmetic_test
+            - build
       - deploy:
           requires:
             - test
