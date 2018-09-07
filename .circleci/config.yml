@@ -10,7 +10,7 @@ jobs:
       - image: php:5.6.23
     steps:
       - checkout
-      - run: echo hello
+      - run: phpunit ../Arithmetic_test
   deploy:
     machine: True
     steps:
