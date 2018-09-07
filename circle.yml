@@ -1,12 +1,3 @@
-machine:
-  timezone: Asia/Tokyo
-  php:   # 言語のバージョン指定(ruby,phpなど)
-    version: 3.4.2
-
 test:
   override:
     - echo hello world
-
-deployment:
-  deploy:
-    branch: master
