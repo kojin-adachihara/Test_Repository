@@ -10,7 +10,7 @@ jobs:
       - image: php:5.6.23
     steps:
       - checkout
-      - run: test
+      - run: echo hello
   deploy:
     machine: True
     steps:
