@@ -36,7 +36,7 @@ jobs:
       # run tests!
       - run: ls -lah
       - run: find ./ -type f -name phpunit
-      - run: ./phpunit/phpunit Arithmetic_test.php
+      - run: ./vendor/phpunit/phpunit/phpunit Arithmetic_test.php
 
 
 
