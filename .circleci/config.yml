@@ -34,7 +34,7 @@ jobs:
       #     key: v1-dependencies-{{ checksum "composer.json" }}
 
       # run tests!
-      - run: phpunit Arithmetic_test.php
+      - run: ./phpunit/phpunit Arithmetic_test.php
 
 
 
