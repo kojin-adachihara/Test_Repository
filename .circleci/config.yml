@@ -17,7 +17,7 @@ jobs:
   deploy:
     machine: True
     steps:
-      - run: date()
+      - run: date
 workflows:
   version: 2
   build_and_test:
