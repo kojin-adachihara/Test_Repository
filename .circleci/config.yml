@@ -17,7 +17,7 @@ jobs:
   deploy:
     machine: True
     steps:
-      - run: ls
+      - run: dir
 workflows:
   version: 2
   build_and_test:
